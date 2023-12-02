@@ -2,9 +2,8 @@ import { Controller, Get, Post, Body, Patch, Param, Delete, Query } from '@nestj
 import { PokemonService } from './pokemon.service';
 import { CreatePokemonDto } from './dto/create-pokemon.dto';
 import { UpdatePokemonDto } from './dto/update-pokemon.dto';
-import { Mongoose } from 'mongoose';
 import { ParseMongoIdPipe } from '../common/pipes/parse-mongo-id/parse-mongo-id.pipe';
-import { PaginationDto } from '../common/dto/Pagination.dto';
+import { PaginationDto } from '../common/dto/pagination.dto';
 
 @Controller('pokemon')
 export class PokemonController {
