@@ -38,6 +38,20 @@ yarn start:dev
 localhost:3000/api/v2/seed
 ```
 
+## Prod build
+1.Create file ```.env.prod```
+2.Build image
+```
+docker-compose -f docker-compose.prod.yaml --env-file .env.prod up --build
+```
+3. Run image
+```
+docker-compose -f docker-compose.prod.yaml --env-file .env.prod up -d
+```
+
+10. Run image
+
+
 ## Stack
 * MongoDB
 * Nest
