@@ -20,7 +20,12 @@ npm i -g @nestjs/cli
 ```
 docker-compose up -d
 ```
+5. Insert data seed
+```
+localhost:3000/api/v2/seed
+```
 
 ## Stack
 * MongoDB
 * Nest
+
