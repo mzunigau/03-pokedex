@@ -3,8 +3,8 @@ import { PokemonService } from './pokemon.service';
 import { CreatePokemonDto } from './dto/create-pokemon.dto';
 import { UpdatePokemonDto } from './dto/update-pokemon.dto';
 import { Mongoose } from 'mongoose';
-import { ParseMongoIdPipe } from 'src/common/pipes/parse-mongo-id/parse-mongo-id.pipe';
-import { PaginationDto } from 'src/common/dto/Pagination.dto';
+import { ParseMongoIdPipe } from '../common/pipes/parse-mongo-id/parse-mongo-id.pipe';
+import { PaginationDto } from '../common/dto/Pagination.dto';
 
 @Controller('pokemon')
 export class PokemonController {
