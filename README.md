@@ -20,7 +20,20 @@ npm i -g @nestjs/cli
 ```
 docker-compose up -d
 ```
-5. Insert data seed
+
+5. Clone file ___.env.tempalte___ and rename to __.env__
+```
+localhost:3000/api/v2/seed
+```
+
+6. fill the enviroment variables ```.env```
+
+7. Execute the app using:
+```
+yarn start:dev
+```
+
+8. Insert data seed
 ```
 localhost:3000/api/v2/seed
 ```
